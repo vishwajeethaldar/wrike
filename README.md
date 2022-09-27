@@ -3,7 +3,7 @@
 ### About 
 Wrike is a digital work management tool that lets users track and coordinate projects, combining a simple user experience and interface with enough depth for power users.
 
-project is build during the construction week of masai school.
+project was build during the construction week of masai school.
 
 ### Project Type - Group Project
 ### [ Official Website](https://www.wrike.com), [Clone-Live](https://vishwajeethaldar.github.io/wrike-clone/)
