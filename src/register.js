@@ -1,5 +1,5 @@
-import navbar from '../components/navbar.js';
-document.getElementById('mains').innerHTML = navbar();
+// import navbar from '../components/navbar.js';
+// document.getElementById('mains').innerHTML = navbar();
 
 
 import {user, ugroup} from '../src/classes.js';

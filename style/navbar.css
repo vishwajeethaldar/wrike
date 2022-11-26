@@ -23,8 +23,8 @@ a{
 nav{
     min-height: 70px;
     /* width:100vw; */
-   
 }
+
 nav .navbar{
     display: flex;  
     justify-content: space-between;  

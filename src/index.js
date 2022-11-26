@@ -1,14 +1,7 @@
-import navbar from "../components/navbar.js";
-import footer from '../components/footer.js';
 
-document.getElementById("mains").innerHTML= navbar();
+import footer from '../components/fot.js';
+// import navbar from '../components/navbar1.js'
 document.getElementById("footer").innerHTML= footer();
-
+// document.getElementById("mains").innerHTML= navbar();
 import mid from "../src/mid.js";
 document.getElementById("mid").innerHTML= mid();
-
-
-
-
-
-console.log(mid());

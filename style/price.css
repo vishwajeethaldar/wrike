@@ -183,6 +183,7 @@ body{
     justify-content: center;
     align-items: flex-end;
     gap:10px;
+    flex-wrap: wrap;
 }
 .planCard{
     width: 22%;
@@ -280,7 +281,8 @@ body{
     display: flex;
     gap: 20px;
     justify-content: center;
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .featuresCard{
@@ -303,8 +305,11 @@ body{
 
 
 #compareplans{
-    width: 97%;
+    width:100%;
     border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    gap: 20px;
     margin: 10px auto;
     background-color: #EBF5F3;
     background-image: url(https://web-static.wrike.com/content/themes/wrike/dist/img/vector/rebranding/price/banner-background-right.svg?v=e73c32e473);
@@ -357,6 +362,9 @@ body{
 
 #externallinks{
     display: flex;
+    gap:"20px";
+    padding: 10px 20px;
+    flex-wrap: wrap;
     justify-content: space-around;
     /* gap: 25px; */
 }
@@ -427,6 +435,7 @@ body{
 #ClientServices{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -434,7 +443,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   width:30%;
+    width:30%;
 
    min-height: 250px;
 }
@@ -534,4 +543,51 @@ body{
 
 #contactusBtn{
     padding: 10px 40px;
+}
+
+
+@media screen and (max-width:767px) and (min-width:421px){
+    .planCard{
+        width: 40%;
+    }
+    #plansDetails{
+        justify-content: center;
+
+    }
+    .featuresCard{
+        width: 40%;
+    }
+    .clientCard{
+        width: 40%;
+    }
+    .addonCard{
+        flex-direction: column;
+    }
+
+    #faq{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .planCard{
+        width: 90%;
+    }
+    
+    #plansDetails{
+        justify-content: center;
+        
+    }
+    .featuresCard{
+        width: 80%;
+    }
+    .clientCard{
+        width: 80%;
+    }
+    .addonCard{
+        flex-direction: column;
+    }
+    #faq{
+        width: 90%;
+    }
 }

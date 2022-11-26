@@ -1,12 +1,12 @@
 import priceNote from '../components/priceNote.js'
 import {singupcontent} from '../components/signup.js'
 import {enterPassword} from '../components/signup.js'
-import navbar from '../components/navbar.js';
+
+
+
 document.getElementById('pricingnote').innerHTML = priceNote();
 
-document.getElementById('mains').innerHTML = navbar();
-
-import footer from '../components/footer.js'
+import footer from '../components/fot.js'
 document.getElementById('footer').innerHTML = footer();
 
 
@@ -45,7 +45,7 @@ let changeSelected =(item)=>{
 }
 
 let links  = document.querySelectorAll("#links>a");
-console.log(links);
+
 links.forEach((el) => {
     el.addEventListener('click', ()=>{
        el.setAttribute('class', 'selected')
@@ -55,12 +55,6 @@ links.forEach((el) => {
 
 
 let changePlans = (idname)=>{
-
-    
-   
-    
-    
-    
     let plan  = document.getElementById("plans");
     let market = document.getElementById("marketing");
     let teams  = document.getElementById("teams");
@@ -68,7 +62,7 @@ let changePlans = (idname)=>{
             market.removeAttribute("class", 'selected');
             teams.removeAttribute("class", 'selected');
             plan.setAttribute("class", 'selected');
-            console.log('here')
+           
         }else if (idname==market){
             market.setAttribute("class", 'selected');
             teams.removeAttribute("class", 'selected');
@@ -98,7 +92,7 @@ let showHideFeatures= ()=>{
         div.setAttribute('class', 'hide')
     }
 
-    console.log(div);
+
 }
 document.getElementById('showHideFeatures').addEventListener('click', showHideFeatures);
 
@@ -198,5 +192,4 @@ let signupBtn = document.querySelectorAll('.regBtn');
 signupBtn.forEach((el)=>{
     el.addEventListener("click", showRegForm);
 })
-
 
