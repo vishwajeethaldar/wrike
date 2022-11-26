@@ -1,4 +1,4 @@
-import navbar from "../components/pnavbar.js";
+import navbar from "../../components/nav.js";
 document.getElementById("mains").innerHTML=navbar();
 
 import footer from "../components/footerpart.js";
