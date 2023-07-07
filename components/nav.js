@@ -5,7 +5,7 @@ return  `
     <nav>
         <div class="main-navbar">
             <div class="brand-logo">
-                <a href="/">
+                <a href="https://vishwajeethaldar.github.io/wrike/">
                     <img class="brand-logo-img" src="https://seekvectorlogo.com/wp-content/uploads/2022/02/wrike-inc-vector-logo-2022.png" alt="">
                 </a>
 
